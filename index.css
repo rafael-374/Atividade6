@@ -1,0 +1,70 @@
+
+@keyframes titulo{
+    0% {transition: margin-left 6s ease 1s; transform: scaleX(2); transform: scaleY(1); color: aqua}
+    50% {transition: margin-right 4s ease 1s; transform: scaleX(1); transform: scaleY(2); color: green}
+    100% {transition: margin-left 6s ease 1s; color: red}
+}
+a:link{
+    color: purple;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: aqua;
+}
+body{
+    background-color: rgb(43, 43, 43);
+}
+main{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+footer{
+    float: left;
+    margin-top: 40px;
+    display: flex;
+    background-color: gray;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    background-color: rgb(172, 172, 172);
+    color: red;
+}
+h1{
+    display: flex;
+    font-size: 60px;
+    color: red;
+    justify-content: center;
+}
+h1:hover{
+    animation-name: titulo;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+article{
+    float: left;
+    background-color: red;
+}
+aside{
+    float: right;
+    background-color: red;
+    margin-bottom: 50px;
+    margin-right: 40px;
+}
+section{
+    float: left;
+    background-color: red;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+img{
+    width: 600px;
+    margin-left: 10px;
+}
+iframe{
+    width: 620px;
+    height: 220px;
+}
